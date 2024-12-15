@@ -1,10 +1,10 @@
-Telecom Customer Churn Prediction
+## Telecom Customer Churn Prediction
 
-Objective
+### Objective
 
 The primary goal of this project is to develop a machine learning model to predict customer churn in a telecom company. The model will identify which customers are likely to stop using the company's services, allowing the business to take proactive measures to retain them.
 
-Overview
+### Overview
 
 In this project, I work with a telecom churn dataset from Kaggle. The focus is to create a model that can predict churn with a good balance of precision and recall. The steps include:
     - data download,
@@ -14,7 +14,7 @@ In this project, I work with a telecom churn dataset from Kaggle. The focus is t
     - model building, evaluation, and fine-tuning of the classification threshold to optimize the model's performance.
 
 
-Dataset
+### Dataset
 
 The dataset used in this project can be downloaded from Kaggle:
 
@@ -48,7 +48,7 @@ Rows: 7,043
 Columns: 21 (20 features + 1 target)
 
 
-Requirements
+### Requirements
 
 This project includes Jupyter notebooks telecomCustomers.ipynb to explore and analyze the datasets interactively.
 
