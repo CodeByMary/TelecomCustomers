@@ -6,59 +6,60 @@ The primary goal of this project is to develop a machine learning model to predi
 
 ### Overview
 
-In this project, I work with a telecom churn dataset from Kaggle. The focus is to create a model that can predict churn with a good balance of precision and recall. The steps include:
-    - data download,
-    - exploratory data analysis (EDA)
-    - data preprocessing, 
-    - feature engineering, 
-    - model building, evaluation, and fine-tuning of the classification threshold to optimize the model's performance.
-
+In this project, I will work with a telecom churn dataset from Kaggle. The focus is to create a model that can predict churn with a good balance of precision and recall. The steps include:
+- Data download
+- Exploratory data analysis (EDA)
+- Data preprocessing
+- Feature engineering
+- Model building
+- Model evaluation
+- Fine-tuning of the classification threshold to optimize the model's performance
 
 ### Dataset
 
 The dataset used in this project can be downloaded from Kaggle:
 
-Dataset: https://www.kaggle.com/datasets/tarekmuhammed/telecom-customers
-Key Information:
+**Dataset**: [Telecom Customers Dataset](https://www.kaggle.com/datasets/tarekmuhammed/telecom-customers)
 
-The dataset contains information about telecom customers, including their usage patterns, services subscribed, and whether they churned (left the company).
-The target variable is Churn, a binary indicator (0 for non-churners, 1 for churners).
+#### Key Information:
+The dataset contains information about telecom customers, including their usage patterns, services subscribed, and whether they churned (left the company). The target variable is **Churn**, a binary indicator (0 for non-churners, 1 for churners).
 
+#### Features:
 The dataset consists of the following features:
 
-CustomerID: Unique customer identifier.
-Gender: Gender of the customer.
-SeniorCitizen: Whether the customer is a senior citizen (1) or not (0).
-Partner: Whether the customer has a partner (Yes/No).
-Dependents: Whether the customer has dependents (Yes/No).
-Tenure: Number of months the customer has been with the company.
-PhoneService: Whether the customer has phone service (Yes/No).
-MultipleLines: Whether the customer has multiple lines (Yes/No/No phone service).
-InternetService: Type of internet service (DSL, Fiber optic, No).
-OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies: Various service options (Yes/No/No internet service).
-Contract: Type of contract (Month-to-month, One year, Two year).
-PaperlessBilling: Whether the customer uses paperless billing (Yes/No).
-PaymentMethod: Payment method (Electronic check, Mailed check, Bank transfer, Credit card).
-MonthlyCharges: The amount charged to the customer monthly.
-TotalCharges: Total charges incurred by the customer.
-Churn: Target variable indicating whether the customer churned (Yes/No).
+- **CustomerID**: Unique customer identifier
+- **Gender**: Gender of the customer
+- **SeniorCitizen**: Whether the customer is a senior citizen (1) or not (0)
+- **Partner**: Whether the customer has a partner (Yes/No)
+- **Dependents**: Whether the customer has dependents (Yes/No)
+- **Tenure**: Number of months the customer has been with the company
+- **PhoneService**: Whether the customer has phone service (Yes/No)
+- **MultipleLines**: Whether the customer has multiple lines (Yes/No/No phone service)
+- **InternetService**: Type of internet service (DSL, Fiber optic, No)
+- **OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies**: Various service options (Yes/No/No internet service)
+- **Contract**: Type of contract (Month-to-month, One year, Two year)
+- **PaperlessBilling**: Whether the customer uses paperless billing (Yes/No)
+- **PaymentMethod**: Payment method (Electronic check, Mailed check, Bank transfer, Credit card)
+- **MonthlyCharges**: The amount charged to the customer monthly
+- **TotalCharges**: Total charges incurred by the customer
+- **Churn**: Target variable indicating whether the customer churned (Yes/No)
 
-Dataset Overview
-Rows: 7,043
-Columns: 21 (20 features + 1 target)
-
+#### Dataset Overview:
+- **Rows**: 7,043
+- **Columns**: 21 (20 features + 1 target)
 
 ### Requirements
 
-This project includes Jupyter notebooks telecomCustomers.ipynb to explore and analyze the datasets interactively.
+This project includes the Jupyter notebook **telecomCustomers.ipynb** to explore and analyze the datasets interactively.
 
 To run this project, you need to install the following dependencies:
+- **Python**: Version 3.10
+- **Additional Python packages**: Listed in `requirements.txt`
 
-Python 3.10
-Additional Python packages listed in requirements.txt
-Install Dependencies
+### Install Dependencies
 
-You can install the required dependencies using the following command:
+You can install the required dependencies using the following commands:
 
+```bash
 pip install jupyter
 pip install -r requirements.txt
