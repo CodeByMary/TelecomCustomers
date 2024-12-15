@@ -1,5 +1,7 @@
 ## Telecom Customer Churn Prediction
-
+- [banalytics](https://github.com/banalytics)
+- [SamuelZboja](https://github.com/SamuelZboja)
+  
 ### Objective
 
 The primary goal of this project is to develop a machine learning model to predict customer churn in a telecom company. The model will identify which customers are likely to stop using the company's services, allowing the business to take proactive measures to retain them.
